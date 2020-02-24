@@ -1,5 +1,7 @@
 """
-Perform ETL on Lending Club dataset. Methods to pull, clean, and reformat data.
+Perform ETL on used datasets. Methods to pull, clean, and reformat data. Lending Club has
+a large and confusing set of values that must be preprocessed. Tasks including imputation, encoding,
+and scaling are necessary on the raw data.
 """
 import pandas as pd
 import numpy as np
@@ -33,20 +35,15 @@ def drop_null(data, col="loan_status", method="row"):
     return data.drop(null, axis=axis)
 
 
-def encode_categories(data, columns):
+def encode_categories(column):
     """
     Encodes categorical data values into numerical values.
 
-    :param data: data with columns
-    :param columns: list of columns to encode
+    :param column: column to encode
     :return: encoded dataframe
     """
-    encoded = data.copy()
     le = LabelEncoder()
-    for column in columns:
-        le.fit(data[column])
-        encoded[column] = le.transform(data[column])
-    return encoded
+    return le.fit_transform(column)
 
 
 def scale(data, columns, method="standard"):

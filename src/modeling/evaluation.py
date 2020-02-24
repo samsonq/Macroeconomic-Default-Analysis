@@ -1,5 +1,6 @@
 """
-
+Evaluation of models created: performance on test set, signs of overfitting, etc.
+Hyperparameter tuning of models through processes like cross-validation.
 """
 import numpy as np
 

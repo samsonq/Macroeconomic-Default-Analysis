@@ -1,5 +1,14 @@
 """
+Custom defined metrics for measuring model accuracy on making classification predictions. Good to
+evaluate types of predictions that models are making, rather than just the accuracy.
 
+False positive/false negative rates are useful to observe during training to see how model is learning.
+These metrics should see improvement:
+
+    False Negatives: borrower defaults, but model predicts they don't.
+        - Results in loss of money and trust for lender
+    False Positives: borrower doesn't default, but model predicts they do.
+        - Results in missed opportunity for borrower and lender
 """
 import numpy as np
 import math
