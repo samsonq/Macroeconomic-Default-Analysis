@@ -22,9 +22,23 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
-from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
+
+
+def train_and_evaluate(model, train_X, train_y, valid_X, valid_y):
+    """
+    Trains and evalutaes a model based on training/validation data.
+
+    :param model: model to fit
+    :param train_X: training features
+    :param train_y: training label
+    :param valid_X: validation features
+    :param valid_y: validation label
+    :return: accuracy of model on validation set
+    """
+    model.fit(train_X, train_y)
+    predictions = model.predict(valid_X)
+    return accuracy_score(valid_y, predictions)
 
 
 def build_train_nn(train_X, train_y, valid_X, valid_y, epochs, batch_size):
@@ -62,3 +76,18 @@ def build_train_nn(train_X, train_y, valid_X, valid_y, epochs, batch_size):
     plt.legend(loc=7)
     plt.show()
     return mdl
+
+
+def predict(test, model, save=False):
+    """
+
+    :param test: testing set
+    :param model: model to make predictions
+    :param save: save predictions to new csv
+    :return: testing set with predictions made
+    """
+    predictions = model.predict(test)
+    preds = test.assign(Predictions=predictions)
+    if save:
+        preds.to_csv("preds.csv")
+    return preds
