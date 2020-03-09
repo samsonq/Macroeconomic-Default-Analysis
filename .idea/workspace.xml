@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed344878-6e0a-4f00-a867-b05f4f6e29f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Modeling.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocessing/ETL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocessing/ETL.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +25,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modeling/train_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#137#155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +79,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="26" />
+    <option name="x" value="139" />
+    <option name="y" value="23" />
     <option name="width" value="1453" />
     <option name="height" value="1008" />
   </component>
@@ -89,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,11 +117,6 @@
             <path>
               <item name="Macroeconomic-Default-Analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Macroeconomic-Default-Analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Macroeconomic-Default-Analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Macroeconomic-Default-Analysis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -147,6 +141,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,17 +178,19 @@
       <workItem from="1582487541504" duration="10171000" />
       <workItem from="1582531615331" duration="759000" />
       <workItem from="1582532698438" duration="19000" />
+      <workItem from="1582598578509" duration="12000" />
+      <workItem from="1583733576557" duration="483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10949000" />
+    <option name="totallyTimeSpent" value="11444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="26" width="1453" height="1008" extended-state="0" />
+    <frame x="139" y="23" width="1453" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25655565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26364282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,8 +270,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modeling/train_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#137#155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
