@@ -35,17 +35,20 @@ from sklearn.metrics import accuracy_score
 from metrics import recall, precision, f1
 
 
-def train_and_evaluate(model, train_X, train_y, valid_X, valid_y):
+def train_and_evaluate(mdl, train_X, train_y, valid_X, valid_y):
     """
     Trains and evaluates a model based on training/validation data.
 
-    :param model: model to fit
+    :param mdl: model to fit
     :param train_X: training features
     :param train_y: training label
     :param valid_X: validation features
     :param valid_y: validation label
     :return: accuracy of model on validation set
     """
+    models = {"svm": SVC(), "random_forest": RandomForestClassifier(), "log_reg": LogisticRegression(),
+              "knn": KNeighborsClassifier(), "naive_bayes": GaussianNB(), "decision_tree": DecisionTreeClassifier()}
+    model = models[mdl]
     model.fit(train_X, train_y)
     predictions = model.predict(valid_X)
     return accuracy_score(valid_y, predictions)
