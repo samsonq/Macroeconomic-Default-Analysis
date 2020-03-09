@@ -8,7 +8,6 @@ import pandas as pd
 
 from matplotlib import pyplot as plt
 import seaborn as sns
-sns.set_style("whitegrid")
 
 
 def single_barplot(data, x, y, hue=None):
