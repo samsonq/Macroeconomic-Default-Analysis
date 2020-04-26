@@ -26,19 +26,46 @@ Table_Chart_Graph_Segmentation
 ├── data
 │   ├── Economy
 │   └── LendingClub
-├── notebooks
-│   ├── EDA & Data Visualization.ipynb
-│   ├── Missingness & Imputation.ipynb
-│   ├── Modeling.ipynb
-│   └── Preprocessing.ipynb
 ├── src
 │   ├── __init__.py
 │   ├── modeling
 │   ├── preprocessing
 │   └── visualization
+├── notebooks
+│   ├── EDA & Data Visualization.ipynb
+│   ├── Missingness & Imputation.ipynb
+│   ├── Preprocessing.ipynb
+│   └── Modeling.ipynb
 ├── references
 │   ├── Previous Research
 ├── requirements.txt
 └── LICENSE
+```
 
+### `data`
 
+* `Economy`: Contains public macroeconomic data gathered from federal sources
+ 
+* `LendingClub`: Contains loan data from LendingClub including default status
+
+### `src`
+
+* `modeling`: Contains algorithms to train, evaluate, and optimize implemented models
+
+* `preprocessing`: Utility python files to clean all data used
+
+* `visualization`: Functions to quickly plot different charts in the data
+
+### `notebooks`
+
+* `EDA & Data Visualization`: Uni and multivaraite exploration of features in the data to discover associations/trends
+  
+* `Missingness & Imputation`: Analyze and handle all missing values in the datasets
+
+* `Preprocessing`: Reformatting, scaling, encoding, data to prepare for modeling
+
+* `Modeling`: Build and evaluate models to predict loan default
+
+### `references`
+
+* Data Dictionaries, references to external sources
