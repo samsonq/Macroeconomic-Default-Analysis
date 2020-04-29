@@ -20,9 +20,9 @@ A traditional risk model can be built with lending data from LendingClub contain
 
 The project consists of these sections:
 ```
-Table_Chart_Graph_Segmentation
-├── README.md
+Macroeconomic-Default-Analysis
 ├── .gitignore
+├── README.md
 ├── data
 │   ├── Economy
 │   └── LendingClub
