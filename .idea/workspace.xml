@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed344878-6e0a-4f00-a867-b05f4f6e29f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Macroeconomic-Default-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Macroeconomic-Default-Analysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/EDA &amp; Data Visualization.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Loaning EDA &amp; Data Visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Loaning EDA &amp; Data Visualization.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/visualization/plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualization/plots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +53,7 @@
       <workItem from="1583733576557" duration="994000" />
       <workItem from="1583784550314" duration="2992000" />
       <workItem from="1588314902130" duration="650000" />
+      <workItem from="1588317511970" duration="395000" />
     </task>
     <servers />
   </component>
