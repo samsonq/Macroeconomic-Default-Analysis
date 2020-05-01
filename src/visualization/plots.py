@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 
-def single_barplot(data, x, y, hue=None):
+def barplot(data, x, y, hue=None):
     """
     Creates a bar plot to compare the values of two categories, stratified
     by another category (if applicable).
@@ -29,7 +29,7 @@ def single_barplot(data, x, y, hue=None):
     return ax
 
 
-def histogram(column, data, normal=True, bins=None):
+def histogram(column, data, normal=True, kde=False, bins=None):
     """
     Plots a histogram to visualize the distribution of a numerical
     column in the inputted data to find skewness.
@@ -37,9 +37,27 @@ def histogram(column, data, normal=True, bins=None):
     :param column: numerical column in data
     :param data: data to plot
     :param normal: normalize histogram
+    :param kde: boolean of fitting kernel density estimate
     :param bins: bins of histogram
     :return: histogram of numerical column
     """
-    ax = sns.distplot(data[column].dropna(), norm_hist=normal)
+    ax = sns.distplot(data[column].dropna(), norm_hist=normal, kde=kde, bins=bins)
     plt.title("Distribution of " + column)
     return ax
+
+
+def scatterplot(x, y, data, hue=None, regression=False):
+    """
+    This function returns a seaborn barplot based on the data columns passed in.
+    :param x: x-axis column as a string
+    :param y: y-axis column as a string
+    :param data: dataframe containing above columns
+    :param hue: hue column as a string
+    :param regression: boolean of whether to plot regression
+    :returns: scatterplot of the columns
+    """
+    if not regression:
+        return sns.relplot(x=x, y=y, hue=hue, data=data)
+    else:
+        assert hue is None, "Can't have Hue with Regression Plot"
+        return sns.regplot(x=x, y=y, data=data)
