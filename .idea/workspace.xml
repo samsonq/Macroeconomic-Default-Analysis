@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed344878-6e0a-4f00-a867-b05f4f6e29f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/statistics/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/eda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Macroeconomic-Default-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Macroeconomic-Default-Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Loaning EDA &amp; Data Visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Loaning EDA &amp; Data Visualization.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visualization/plots.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualization/plots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Modeling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modeling/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/modeling/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,30 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Macroeconomic-Default-Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -54,6 +82,16 @@
       <workItem from="1583784550314" duration="2992000" />
       <workItem from="1588314902130" duration="650000" />
       <workItem from="1588317511970" duration="395000" />
+      <workItem from="1588462074851" duration="519000" />
+      <workItem from="1588646668549" duration="1000" />
+      <workItem from="1600625200169" duration="240000" />
+      <workItem from="1600626655908" duration="501000" />
+      <workItem from="1600627704102" duration="1948000" />
+      <workItem from="1600645457124" duration="2768000" />
+      <workItem from="1601271743966" duration="5000" />
+      <workItem from="1601773449751" duration="144000" />
+      <workItem from="1601790715056" duration="9000" />
+      <workItem from="1603180794879" duration="1102000" />
     </task>
     <servers />
   </component>
@@ -61,9 +99,13 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="355" y="161" key="SettingsEditor" timestamp="1588315061293">
+    <state x="289" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600627632630">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="355" y="161" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588315061293" />
+    <state x="289" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1600627632630" />
+    <state x="326" y="149" key="SettingsEditor" timestamp="1600627692888">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="326" y="149" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1600627692888" />
   </component>
 </project>

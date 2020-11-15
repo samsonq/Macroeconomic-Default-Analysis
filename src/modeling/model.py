@@ -51,7 +51,7 @@ def train_and_evaluate(mdl, train_X, train_y, valid_X, valid_y):
     model = models[mdl]
     model.fit(train_X, train_y)
     predictions = model.predict(valid_X)
-    return accuracy_score(valid_y, predictions)
+    return model, accuracy_score(valid_y, predictions)
 
 
 def build_train_nn(train_X, train_y, valid_X, valid_y, epochs, batch_size):
